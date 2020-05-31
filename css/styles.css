@@ -4,10 +4,13 @@ body {
   /* font-family: 'Ubuntu', sans-serif; */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif;
 }
-
+h3 {
+  font-family: 'Montserrat-Bold';
+  font-size: 1.5rem;
+}
 /* ID SELECTORS */
 #title {
   background-color: #FF4C68;
@@ -24,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.5rem;
 }
 
-/* Navigation Bar */
+/*************** Navigation Bar ***************/
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -41,13 +44,33 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat-Thin';
 }
 
-/* Download Buttons */
+/*************** Download Buttons ***************/
 .download_button {
   margin: 5% 3% 5% 0;
 }
 
-/* title image */
+/*************** Title Images ***************/
 .iphone6 {
   width: 60%;
   transform: rotate(20deg);
+}
+
+/*************** FEATURES SECTION ***************/
+#features {
+  text-align: center;
+  padding: 7% 15%;
+}
+.feature_box {
+  text-align: center;
+  padding: 5%;
+}
+.feature_icons {
+  margin-bottom: 1rem;
+  color: #EF8162;
+}
+.feature_icons:hover {
+  color: #FF4C68;
+}
+.feature_p {
+  color: #8F8F8F;
 }
