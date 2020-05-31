@@ -1,4 +1,12 @@
 /* TAG SELECTORS */
+body {
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* ID SELECTORS */
 #title {
@@ -6,3 +14,8 @@
 }
 
 /* CLASS SELECTORS */
+.title_h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
