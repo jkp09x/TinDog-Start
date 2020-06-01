@@ -16,10 +16,14 @@ h3 {
   font-family: 'Montserrat-Bold';
   font-size: 1.5rem;
 }
+
+p {
+  color: #8F8F8F;
+}
 /* ID SELECTORS */
 #title {
   background-color: #FF4C68;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* CLASS SELECTORS */
@@ -76,9 +80,6 @@ h3 {
 .feature_icons:hover {
   color: #FF4C68;
 }
-.feature_p {
-  color: #8F8F8F;
-}
 
 /*************** TESTIMONIALS SECTION ***************/
 #testimonials {
@@ -104,4 +105,13 @@ h3 {
 .press_images {
   width: 15%;
   padding: 20px 20px 50px;
+}
+
+/*************** PRICING SECTION ***************/
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+.pricing_col {
+  padding: 3% 2%;
 }
