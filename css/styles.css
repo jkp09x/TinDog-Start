@@ -20,15 +20,10 @@ h3 {
 p {
   color: #8F8F8F;
 }
-/* ID SELECTORS */
-#title {
-  background-color: #FF4C68;
-  color: #FFFFFF;
-}
 
 /* CLASS SELECTORS */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 .title_h1 {
   font-family: 'Montserrat-Black', sans-serif;
@@ -58,16 +53,24 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/*************** Title Images ***************/
+/*************** TITLE SECTION ***************/
+#title {
+  background-color: #FF4C68;
+  color: #FFFFFF;
+}
 .iphone6 {
   width: 60%;
   transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
 }
 
 /*************** FEATURES SECTION ***************/
 #features {
   text-align: center;
   padding: 7% 15%;
+  background-color: #FFFFFF;
+  position: relative;
 }
 .feature_box {
   text-align: center;
