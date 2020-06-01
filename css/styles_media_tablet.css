@@ -1,0 +1,9 @@
+@media (max-width: 1028px) {
+  .iphone6 {
+    transform: rotate(0);
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+}
